@@ -17,7 +17,6 @@ Este projeto é uma **aplicação de Blog Pessoal** desenvolvida com **Spring Bo
 | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) | Banco de dados relacional                            |
 | ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?logo=spring&logoColor=white) | Autenticação e autorização                          |
 | ![Lombok](https://img.shields.io/badge/Lombok-000000?logo=lombok&logoColor=white) | Redução de boilerplate code                         |
-| ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white) | Teste das APIs                                      |
 
 ---
 
@@ -43,8 +42,3 @@ Este projeto é uma **aplicação de Blog Pessoal** desenvolvida com **Spring Bo
 ✔️ Listar postagens por tema ou usuário  
 
 ---
-
-## 💾 Configuração do Banco de Dados
-
-1. Instale o MySQL na sua máquina.
-2. Crie um banco de dados:

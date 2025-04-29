@@ -19,6 +19,7 @@ import jakarta.validation.constraints.Size;
 
 @Entity
 @Table(name = "tb_usuarios")
+
 public class Usuario {
 
 	@Id
@@ -92,6 +93,7 @@ public class Usuario {
 	public void setFoto(String foto) {
 		this.foto = foto;
 	}
+
 	public List<Postagem> getPostagem() {
 		return postagem;
 	}

@@ -23,10 +23,12 @@ public class UsuarioService {
 	private UsuarioRepository usuarioRepository;
 
 	@Autowired
+
 	private JwtService jwtService;
 
 	@Autowired
 	private AuthenticationManager authenticationManager;
+
 
 	public Optional<Usuario> cadastrarUsuario(Usuario usuario) {
 
@@ -45,6 +47,7 @@ public class UsuarioService {
 			Optional<Usuario> buscaUsuario = usuarioRepository.findByUsuario(usuario.getUsuario());
 
 			if ((buscaUsuario.isPresent()) && (buscaUsuario.get().getId() != usuario.getId()))
+
 				throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Usuário já existe!", null);
 
 			usuario.setSenha(criptografarSenha(usuario.getSenha()));
@@ -62,11 +65,13 @@ public class UsuarioService {
 
 		Authentication authentication = authenticationManager.authenticate(credenciais);
 
+
 		if (authentication.isAuthenticated()) {
 
 			Optional<Usuario> usuario = usuarioRepository.findByUsuario(usuarioLogin.get().getUsuario());
 
 			if (usuario.isPresent()) {
+
 
 				usuarioLogin.get().setId(usuario.get().getId());
 				usuarioLogin.get().setNome(usuario.get().getNome());
@@ -82,9 +87,11 @@ public class UsuarioService {
 
 	}
 
+
 	private String criptografarSenha(String senha) {
 
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+
 
 		return encoder.encode(senha);
 	}

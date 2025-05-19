@@ -1,4 +1,4 @@
-# 🌟 Projeto Blog Pessoal
+# 🌟 Projeto Blog Pessoal 🌟
 
 ---
 
@@ -42,3 +42,11 @@ Este projeto é uma **aplicação de Blog Pessoal** desenvolvida com **Spring Bo
 ✔️ Listar postagens por tema ou usuário  
 
 ---
+
+
+## 📝 Desenvolvido por **Laura Nery**.  
+Agradecemos por sua visita e interesse!
+
+
+*Obrigado por visitar!* 😊
+

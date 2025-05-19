@@ -47,7 +47,6 @@ Este projeto é uma **aplicação de Blog Pessoal** desenvolvida com **Spring Bo
 ## 📝 Autoria
 
 Desenvolvido por **Laura Nery**. ✨💖
-Agradecemos por sua visita e interesse!
 
 
 *Obrigado por visitar!* 😊
